@@ -1,0 +1,13 @@
+{application, marketsim,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  gproc,
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { marketsim_app, []}},
+  {env, []}
+ ]}.
