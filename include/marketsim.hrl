@@ -1,1 +1,2 @@
 -record(ms_good, {name}).
+-record(agent, {funds=0, goods=[], demand, supply}).
